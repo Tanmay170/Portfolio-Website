@@ -1,0 +1,387 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-video1 {
+    position: absolute;
+    top: 100px;
+    left: 10%;
+    font-size: large;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.nav-video1:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
+    transition: all .3s ease-in-out;
+}
+
+.nav-video2 {
+    position: absolute;
+    top: 100px;
+    left: 35%;
+    font-size: large;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.nav-video2:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
+    transition: all .3s ease-in-out;
+}
+
+.nav-video3 {
+    position: absolute;
+    top: 100px;
+    left: 60%;
+    font-size: large;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.nav-video3:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
+    transition: all .3s ease-in-out;
+}
+
+.nav-video4 {
+    position: absolute;
+    top: 100px;
+    left: 85%;
+    font-size: large;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.nav-video4:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
+    transition: all .3s ease-in-out;
+}
+
+.Background-video1 {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+    height: 730px;
+}
+
+.text-video1 {
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    font-weight: 900;
+    font-size: large;
+}
+
+.text2-video1 {
+    position: absolute;
+    top: 600px;
+    left: 400px;
+    font-weight: 900;
+    font-size: large;
+}
+
+.btn1-video1 {
+    position: absolute;
+    top: 650px;
+    right: 400px;
+    font-size: large;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+}
+
+.btn2-video1 {
+    position: absolute;
+    top: 650px;
+    right: 200px;
+    font-size: large;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.btn1-video2 {
+    position: absolute;
+    top: 1450px;
+    right: 400px;
+    font-size: large;
+    background-color: yellow;
+    color: black;
+    border-radius: 12px;
+}
+
+.btn2-video2 {
+    position: absolute;
+    top: 1450px;
+    right: 150px;
+    font-size: large;
+    background-color: white;
+    color: white;
+    border-radius: 12px;
+    border: 2px solid white;
+    background: transparent;
+}
+
+.btn1-video1:hover {
+    background-color: bisque;
+}
+
+.Background-video2 {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+    height: 730px;
+
+}
+
+.Background-video3 {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+    height: 730px;
+}
+
+.Background-video4 {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+    height: 730px;
+}
+
+.btn1-video3 {
+    position: absolute;
+    top: 2150px;
+    right: 400px;
+    font-size: large;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    z-index: 1000;
+}
+
+.btn2-video3 {
+    position: absolute;
+    top: 2150px;
+    right: 200px;
+    font-size: large;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+    z-index: 1000;
+}
+
+.text1-video2 {
+    position: absolute;
+    top: 2130px;
+    left: 200px;
+    font-weight: 900;
+    font-size: large;
+    z-index: 1000;
+}
+
+.text2-video2 {
+    position: absolute;
+    top: 2130px;
+    left: 400px;
+    font-weight: 900;
+    font-size: large;
+    z-index: 1000;
+}
+.text1-video4{
+    position: absolute;
+    top: 2880px;
+    left: 150px;
+    color: white;
+    z-index: 1000;
+    font-weight: 900;
+}
+.text2-video4{
+    position: absolute;
+    top: 2880px;
+    left: 400px;
+    color: white;
+    z-index: 1000;
+    font-weight: 900;
+}
+.text2-video3 {
+    position: absolute;
+    top: 1400px;
+    left: 400px;
+    z-index: 1000;
+    font-weight: 900;
+}
+
+.text1-video3 {
+    position: absolute;
+    top: 1400px;
+    left: 150px;
+    color: white;
+    z-index: 1000;
+    font-weight: 900;
+}
+.btn2-video4 {
+    position: absolute;
+    top: 2900px;
+    right: 150px;
+    font-size: large;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+    z-index: 1000;
+}
+
+.btn1-video4 {
+    position: absolute;
+    top: 2900px;
+    right: 400px;
+    font-size: large;
+    background-color: yellow;
+    color: black;
+    border-radius: 12px;
+    z-index: 1000;
+}
+
+video:hover {
+    transform: scale(1.05);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    height: 120px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+#featured-cars {
+    padding: 40px 0;
+    position: relative;
+    margin: auto;
+}
+.front{
+    text-align: center;
+}
+
+.car-card {
+    border: 1px solid white;
+    border-radius: 8px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+}   
+.car-card:hover {
+    transform: scale(1.05);
+}
+.car-card img {
+    margin-left: 230px;
+    width: 650px;
+    height: 410px;
+    margin-bottom: 15px;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font: size 50px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover {
+
+    color: gray;
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.3s ease-out;
+  }
+
+  .panel {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.2s ease-out;
+  }
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active,.panel, .accordion:hover {
+    transform: scale(1.05);
+  }
+  .L1{
+    text-decoration: underline;
+    font-size: large;
+  }

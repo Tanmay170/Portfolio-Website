@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selector</title>
+    <style>
+        h1{
+            background-color: red;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+        /* if p is contained by li div */
+        div li p{
+            color: yellow;
+            background-color: gray;
+            font-weight: bold;
+        }
+        /* if p write inside div */
+        div > p{
+            color: green;
+            background-color: beige;
+            font-weight: bold;
+        }
+        /* if p is write after div */
+        div + p{
+            color: azure;
+            background-color: khaki;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is selector</h1>
+    <div class="container">
+        <div class="class">
+            <ul>
+                <li class="item"> <p>this is paragraph</p></li> 
+            </ul>
+            <p>this is paragraph</p>
+            <div>
+                <p>this is another paragraph</p>               
+            </div>
+            <div>
+            </div>
+        </div>
+    </div>
+    <p>this is paragraph</p>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;    
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h2{
+            text-align: center;
+            margin-top: 80px;
+        }
+        .login-box {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #e1e4e8;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(27, 31, 35, 0.15);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        img{
+            width: 60px;
+            height: 60px;
+            margin-left: 640px;
+            display: flex; 
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        .form-group {
+            text-align: left;
+            margin: 10px 0;
+        }
+
+        label {
+            font-weight: bold;
+        }
+        .Support{
+            color: grey;
+        }
+        #last{
+            margin-top: 70px;
+            margin-left: 480px;
+        }
+        .Privacy{
+            margin-left: 20px;
+        }
+        .Docs{
+            margin-left: 20px;
+        }
+        .Support{
+            margin-left: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .Forgot{
+            padding-left: 196px;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: 1px solid darkgreen;
+            border-radius: 3px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+   <a href="#"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/200px-GitHub_Invertocat_Logo.svg.png" alt="Error"></a>
+    <h2>Sign in to GitHub</h2>
+    <div class="container">
+        <div class="login-box">
+            <form>
+                <div class="form-group">
+                    <label for="username">Username or Email address</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label><a class="Forgot" href="#">Forgot password?</a>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit">Sign in</button>
+            </form>
+            <div class="box2">
+                <p><a href="#">Sign in with a passkey</a>.</p>
+                <p>New to GitHub? <a href="#">Create an account</a>.</p>
+            </div>
+        </div>
+    </div>
+    <div id="last">
+    <p><a href="#">Terms</a>
+        <a class="Privacy" href="#">Privacy</a>
+        <a class="Docs" href="#">Docs</a>
+        <a class="Support" href="#">Contact GitHub Support</a></p>
+    </div>
+</body>
+
+</html>

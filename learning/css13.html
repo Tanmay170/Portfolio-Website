@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 544px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            /* flex properties(default row) */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            /* flex-wrap: wrap-reverse; */
+            /* flex-flow: wrap;(used for both direction and wrap) */
+            /* justify-content:space-evenly; */
+            /* align-items: center; */
+        }
+        .item{
+            background-color: tomato;
+            border: 2px solid green;
+            padding: 2px;
+            margin: 10px;
+            width: 80px;
+        }
+        #item-1{
+            /* order: 2; */
+            /* flex-grow: 3;(to grow size of container) */
+            /* same as flex shrink which decrease the size */
+        }
+        #item-2{
+        }
+        #item-3{
+            /* order: 40; */
+
+        }
+        /* higher the order last the position */
+    </style>
+</head>
+
+<body>
+    <h1>head</h1>
+    <div class="container">
+        <div class="item" id="item-1">First</div>
+        <div class="item" id="item-2">Second</div>
+        <div class="item" id="item-3">Third</div>
+        <!-- <div class="item" id="item-4">Fourth</div> -->
+        <!-- <div class="item" id="item-5">Fifth</div> -->
+        <!-- <div class="item" id="item-6">Sixth</div> -->
+    </div>
+</body>
+
+</html>
