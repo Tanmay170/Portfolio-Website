@@ -81,19 +81,18 @@ export default function App() {
     <h1 className="text-6xl font-bold text-center mt-10 ">
       Pomodoro
     </h1>
-    <div className="flex ml-[560px] mt-8 text-xl border-slate-950 rounded-xl bg-slate-950 w-[395px] h-8">
+    <div className="flex ml-[660px] mt-8 text-xl border-slate-950 rounded-xl bg-slate-950 w-[395px] h-8">
         <button className="px-6 hover:bg-violet-700 focus:ring-2 rounded-3xl hover:cursor-pointer"onClick={() => handleDurationChange('work')}>Work</button>
         <button  className="px-6 hover:bg-violet-700 focus:ring-2 rounded-3xl hover:cursor-pointer" onClick={() => handleDurationChange('smallBreak')}>Small Break</button>
         <button   className="px-6 hover:bg-violet-700 focus:ring-2 rounded-3xl hover:cursor-pointer" onClick={() => handleDurationChange('longBreak')}>Long Break</button>
     </div>
-    <div className="w-[400px] h-[400px] rounded-full border-slate-950 bg-slate-950 mt-8 ml-[560px] border-transparent">
-      <div id="Timer" className="text-[70px] absolute ml-[125px] mt-[120px]">
+    <div className="w-[500px] h-[500px] rounded-full border-slate-950 bg-slate-950 mt-8 ml-[600px] border-transparent">
+      <div id="Timer" className="text-[90px] absolute ml-[145px] mt-[120px]">
       {formatTime(time)}
       </div>
-      <div className="absolute mt-[230px] ml-[110px] text-xl">Sessions Completed: {sessionsCompleted}</div>
-      <button onClick={handleStartPause} id="Button" className="text-4xl pt-[280px] pl-[145px] tracking-wider ">{isRunning ? 'PAUSE' : 'START'}</button>
-      <FaUndoAlt size={30} onClick={handleReset} className="cursor-pointer absolute ml-[180px] mt-7" />
-      <IoMdSettings id="Settings" className="mt-[100px] ml-[180px] cursor-pointer hover:bg-slate-950" size={30} />
+      <div className="absolute mt-[260px] ml-[130px] text-2xl">Sessions Completed: {sessionsCompleted}</div>
+      <button onClick={handleStartPause} id="Button" className="text-5xl pt-[310px] pl-[165px] tracking-wider ">{isRunning ? 'PAUSE' : 'START'}</button>
+      <FaUndoAlt size={30} onClick={handleReset} className="cursor-pointer absolute ml-[220px] mt-7" />
     </div>
     </div>
   )
